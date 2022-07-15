@@ -17,6 +17,7 @@ saveMessage.addEventListener("click", function () {
     window.alert("Não foi detectado nenhum texto para salvar");
   } else {
     localStorage.setItem("nome", JSON.stringify(mensagem));
+    window.alert("A mensagem foi salva");
   }
 });
 
