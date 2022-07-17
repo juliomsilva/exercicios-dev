@@ -1,0 +1,43 @@
+body {
+  margin-left: 20px;
+  text-align: justify;
+  background-color: #173f64;
+}
+button {
+  margin-left: 20px;
+  background-color: #06224a;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 6px;
+}
+button:hover {
+  background-color: #010d1f;
+  transition: 0.3s;
+}
+#inserirItem {
+  font-family: inherit;
+  width: 230px;
+  border: 0;
+  border-bottom: 2px solid white;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+h1 {
+  color: white;
+}
+ul {
+  margin-top: 50px;
+}
+li {
+  font-weight: 900;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
