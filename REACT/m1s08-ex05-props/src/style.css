@@ -1,0 +1,23 @@
+body {
+  background: #272b35;
+}
+.titulo {
+  color: white;
+}
+.containerTitulo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.logo {
+  animation: rodarLogo infinite 20s linear;
+}
+@keyframes rodarLogo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
