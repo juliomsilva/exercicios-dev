@@ -8,10 +8,12 @@ import Botao from "./[M1S08]Ex06-Props/Botao";
 import PostInstagram from "./[M1S08]Ex07/PostInstagram";
 import ListaContatos from "./[M1S08]Ex08-ListadeContatos/ListaContatos";
 import Produtos from "./[M1S08]Ex09-ListadeProdutos/Produtos";
+import RenderCond from "./[M1S08]Ex10-RenderizacaoCondicional/RenderCond";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Produtos />
+    <RenderCond />
+    {/* <Produtos /> */}
     {/* <ListaContatos /> */}
     {/* <PostInstagram /> */}
 
