@@ -27,6 +27,7 @@ pesquisar.addEventListener("click", function () {
     let pokeAbility = myRequest.response.abilities;
     let ul = document.getElementById("ability");
     ul.innerHTML = "";
+
     pokeAbility.forEach((item) => {
       let li = document.createElement("li");
       li.appendChild(document.createTextNode(item.ability.name));
