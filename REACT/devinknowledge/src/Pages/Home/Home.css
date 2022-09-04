@@ -1,0 +1,154 @@
+body {
+  background-color: #f6f7f9;
+  border: 3px solid grey;
+  width: 1000px;
+}
+#container {
+  display: flex;
+}
+#form {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background-color: #1e195b;
+  border: solid 3px black;
+  padding: 20px;
+  color: white;
+}
+input,
+textarea,
+select {
+  border-radius: 10px;
+  width: 270px;
+  padding: 6px;
+}
+label {
+  margin-left: 5px;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+select:required:invalid {
+  color: #666;
+}
+select {
+  appearance: none;
+  /* background-image: url(/imagens/arrow.png); */
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: calc(100% - 10px) center;
+}
+#btn-form {
+  display: flex;
+  margin-top: 15px;
+  align-self: center;
+  gap: 20px;
+}
+#btn-Limpar {
+  background-color: #def010;
+  color: black;
+  width: 130px;
+  font-weight: 900;
+  border-radius: 20px;
+  border: 2px solid white;
+  text-align: center;
+}
+#btn-Salvar {
+  background-color: #3ace5a;
+  color: black;
+  width: 90px;
+  font-weight: 900;
+  border-radius: 40px;
+  border: 2px solid white;
+  text-align: center;
+  width: 130px;
+}
+#btn-Salvar:hover {
+  background-color: white;
+  cursor: pointer;
+}
+#btn-Limpar:hover {
+  background-color: white;
+  cursor: pointer;
+}
+#estatisticas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#cards {
+  display: flex;
+  gap: 8px;
+  text-align: center;
+  margin: 5px;
+  margin-top: 50px;
+
+  height: 65px;
+  color: #954535;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17px;
+}
+.cardTopo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 8px;
+  height: 30px;
+  background-color: white;
+  -webkit-box-shadow: 10px 6px 5px -7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 6px 5px -7px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 6px 5px -7px rgba(0, 0, 0, 0.3);
+}
+#areaPesquisa {
+  display: flex;
+  margin-left: 50px;
+  gap: 5px;
+}
+#input-pesquisa {
+  border-color: #1e195b;
+  width: 430px;
+}
+#MostrarCards {
+  display: flex;
+  flex-direction: column;
+
+  height: 389px;
+  overflow-y: scroll;
+}
+.bodycards {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow-block: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 1em;
+  background-color: white;
+  border: 1px solid;
+  width: 500px;
+  -webkit-box-shadow: 10px 6px 5px -7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 6px 5px -7px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 6px 5px -7px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  gap: 6px;
+  word-wrap: break-word;
+}
+.icons {
+  margin-top: 15px;
+  gap: 5px;
+  display: flex;
+  justify-content: flex-end;
+  height: 25px;
+}
+#btn-delete:hover {
+  cursor: pointer;
+}
+#video {
+  display: block;
+}
