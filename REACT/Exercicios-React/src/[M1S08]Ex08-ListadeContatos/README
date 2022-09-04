@@ -1,0 +1,2 @@
+Crie um componente de lista de contatos. Cada contato deve conter uma props photo, name e description.
+Defina valores padrão para as props que o componente deve receber (dedaultProps)

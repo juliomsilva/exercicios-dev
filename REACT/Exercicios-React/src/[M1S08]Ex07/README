@@ -1,0 +1,3 @@
+Identifique as quantas e quais são as props do componente abaixo. 
+Logo após, crie um componente Post passando todas as props identificadas.
+Não se esqueça de controlar o tipo de props que o componente pode receber.
