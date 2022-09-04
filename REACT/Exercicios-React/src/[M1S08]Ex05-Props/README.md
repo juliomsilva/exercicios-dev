@@ -1,1 +1,2 @@
-Crie um componente de soma que recebe duas propriedades (números), e que retorna uma frase: “A soma dos números é \_\_”
+Crie um componente de botão com as props background (Cor de fundo do botão) e title (Texto do botão).
+
