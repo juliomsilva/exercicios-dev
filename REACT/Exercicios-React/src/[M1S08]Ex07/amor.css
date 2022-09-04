@@ -1,0 +1,79 @@
+.containerPost {
+  border-radius: 25px;
+  margin: 2em;
+  height: 700;
+  width: 350px;
+  background-color: white;
+  padding: 15px;
+}
+.imgPerfil {
+  height: 70px;
+  border-radius: 50px;
+}
+.Header {
+  display: flex;
+}
+.nomePefil {
+  font-weight: 900;
+  margin-left: 10px;
+}
+.Textos {
+  gap: 8px;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.tempoOnline {
+  font-weight: 500px;
+  color: grey;
+  margin-left: 10px;
+}
+.Menu {
+  width: 40px;
+  height: 30px;
+  margin-left: 163px;
+}
+.Postagem {
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  margin-top: 15px;
+}
+.fotoPost {
+  margin-top: 10px;
+  margin-left: 19px;
+  height: 250px;
+  width: 300px;
+  border: solid 1px black;
+  border-radius: 50px;
+}
+.Footer {
+  display: flex;
+  margin-top: 20px;
+}
+.Coracao {
+  width: 25px;
+}
+.Comments {
+  margin-left: 6px;
+  margin-top: 3px;
+}
+.Compartilhe {
+  margin-left: 150px;
+  margin-top: 3px;
+}
+.FooterBar {
+  display: flex;
+}
+.Footer {
+  display: flex;
+  flex-direction: column;
+}
+.Curtidores {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.quemCurtiu {
+  font-weight: 900;
+  margin-left: 10px;
+}
