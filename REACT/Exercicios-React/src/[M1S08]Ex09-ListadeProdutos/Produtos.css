@@ -1,0 +1,30 @@
+.imgProduto {
+  width: 150px;
+}
+.containerProdutos {
+  width: 1168;
+  padding: 20px;
+  background-color: white;
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.CardProdutos {
+  margin-top: 10px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border: solid 2px black;
+  border-radius: 40px;
+  width: 250px;
+}
+.NomeProduto {
+  font-weight: 900;
+}
+.Preco {
+  margin-top: 5px;
+  align-self: inherit;
+}
