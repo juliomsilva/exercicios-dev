@@ -6,10 +6,13 @@ import "./style.css";
 import Soma from "./[M1S08]Ex05-Props/Soma";
 import Botao from "./[M1S08]Ex06-Props/Botao";
 import PostInstagram from "./[M1S08]Ex07/PostInstagram";
+import ListaContatos from "./[M1S08]Ex08-ListadeContatos/ListaContatos";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <PostInstagram />
+    <ListaContatos />
+    {/* <PostInstagram /> */}
+
     {/* <Titulo />
     <Texto />
     <Soma n1={2} n2={2} />

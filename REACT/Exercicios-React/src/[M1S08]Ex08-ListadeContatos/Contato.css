@@ -1,0 +1,37 @@
+.contatoContainer {
+  background-color: white;
+  width: 350px;
+  height: 80px;
+  display: flex;
+}
+.Contato {
+  gap: 10px;
+  display: flex;
+}
+.fotoContato {
+  margin-left: 6px;
+  margin-top: 10px;
+  border-radius: 60px;
+  width: 60px;
+  height: 50px;
+}
+.contatoDesc {
+  margin-bottom: 3px;
+  justify-content: center;
+
+  display: flex;
+  flex-direction: column;
+}
+.NomeContato {
+  font-weight: 900;
+  font-size: 18px;
+}
+.DescContato {
+  color: grey;
+  font-size: 14px;
+}
+.Container {
+  border: solid 3px black;
+  width: 350px;
+  height: 400px;
+}
